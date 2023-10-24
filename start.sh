@@ -20,5 +20,3 @@ else
         --env JUPYTER_TOKEN="easy" \
         ${image_name}
 fi
-#docker stop cadquery_jupyter
-#docker rm cadquery_jupyter
