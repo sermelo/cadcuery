@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-image_name="sermelo/cadquery_jupyter:1.0"
-name="cadquery_jupyter"
+version="1.0"
+image_name="sermelo/cadquery_jupyter:${version}"
+name="cadquery_jupyter_${version}"
 
 if [ "$(docker ps -a -q -f name=${name})" ]; then
     echo "Docker container already exist"
